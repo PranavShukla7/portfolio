@@ -46,59 +46,58 @@ export const projects: Project[] = [
         slug: "the-wild-oasis-website",
         title: "The Wild Oasis Website",
         description:
-            "Full-stack cabin reservation platform with real-time booking, Google OAuth, and server-side rendering.",
+            "A sophisticated full-stack cabin reservation platform for a luxury resort. Features a seamless guest experience with cabin browsing, real-time availability checks, and secure booking management via Google OAuth and Supabase.",
         tags: ["Next.js", "Supabase", "Tailwind CSS"],
         repoUrl: "https://github.com/PranavShukla7/the-wild-oasis-website",
         content: `
 ## Overview
-The customer-facing website for The Wild Oasis resort, allowing guests to browse cabins, make reservations, and manage their bookings.
+The Wild Oasis is a sophisticated web application designed for a luxury cabin resort. It provides a seamless experience for guests to browse, book, and manage their stays.
 
-## Features
-- Browse available cabins with detailed information
-- Real-time booking management
-- User authentication with Google OAuth
-- Responsive design with Tailwind CSS
-- Server-side rendering with Next.js
+## Key Features
+- **Cabin Browsing**: Explore luxury cabins with detailed descriptions and high-quality imagery.
+- **Reservation System**: Real-time booking with instant availability verification.
+- **Secure Authentication**: Integrated Google OAuth via NextAuth.js for a smooth login experience.
+- **Guest Dashboard**: Comprehensive view for guests to manage their bookings and profiles.
 
 ## Tech Stack
-Next.js, React, Supabase, Tailwind CSS, and NextAuth.js.
+Built with Next.js 15, React, Supabase, Tailwind CSS, and NextAuth.js.
     `,
     },
     {
         slug: "worldwise",
         title: "Worldwise",
         description:
-            "Travel tracking app with interactive maps, geolocation, and authentication built with React and Leaflet.",
+            "An interactive travel tracking application that allows users to document their global adventures on a dynamic map. Built with React and Leaflet, featuring geolocation and secure authentication.",
         tags: ["React", "Leaflet", "Vite"],
+        demoUrl: "https://worldwise-blond.vercel.app",
         repoUrl: "https://github.com/PranavShukla7/Worldwise",
         content: `
 ## Overview
-Worldwise is a travel tracking application that helps users keep a visual record of all the cities and countries they have visited.
+Worldwise is an interactive travel tracking app that lets users mark cities they've visited on an interactive map and manage their travel history.
 
-## Features
-- Interactive world map with city markers
-- Geolocation support for automatic position detection
-- City and country data management
-- Authentication system
-- Travel history timeline
+## Key Features
+- **Interactive Map**: Visualize your global journeys using Leaflet-powered dynamic maps.
+- **Geolocation**: Automatically detect and log your current position into your travel history.
+- **Travel Journal**: Log specific details about each visit, including dates and personal notes.
+- **Authentication**: Secure per-user travel data storage and retrieval.
 
 ## Tech Stack
-Built with React, Vite, Leaflet for maps, and CSS Modules for styling.
+React, Vite, Leaflet, and React Context API for state management.
     `,
     },
     {
         slug: "assignly",
         title: "Assignly",
         description:
-            "Task management application designed for efficient team collaboration and tracking.",
+            "A modern task management and team collaboration platform designed for streamlined project workflows. Features intuitive UI/UX for efficient task assignment and progress tracking.",
         tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-        repoUrl: "https://github.com/PranavShukla7/assignly",
+        repoUrl: "https://github.com/PranavShukla7/Assignly",
         content: `
 ## Overview
-Assignly is a project management and task assignment application currently under active development. It aims to provide a clean and intuitive interface for teams to manage their workflows.
+Assignly is a project management and task assignment application designed to provide a clean and intuitive interface for teams to manage their workflows efficiently.
 
-## Status
-This project is currently in the early stages of development.
+## Development Status
+Currently under active development, focusing on core task tracking mechanics and team collaborative features.
 
 ## Tech Stack
 Built with Next.js, TypeScript, and Tailwind CSS.
@@ -108,7 +107,7 @@ Built with Next.js, TypeScript, and Tailwind CSS.
         slug: "toolmesh",
         title: "ToolMesh",
         description:
-            "Decentralized trust layer for verified AI tool discovery and MCP configuration.",
+            "A decentralized trust layer for verified AI tool discovery and Model Context Protocol (MCP) configuration. Provides a secure registry for AI agents to integrate verified tools.",
         tags: ["TypeScript", "Next.js", "Vercel"],
         demoUrl: "https://toolmesh-mcp.vercel.app",
         repoUrl: "https://github.com/PranavShukla7/ToolMesh",
@@ -117,10 +116,7 @@ Built with Next.js, TypeScript, and Tailwind CSS.
 ToolMesh is a decentralized trust layer for verified AI tool discovery and MCP (Model Context Protocol) configuration. It provides a secure and transparent way for AI agents to discover and use verified tools.
 
 ## The Problem
-As AI agents become more prevalent, they need a reliable way to discover and verify the tools they use. Current solutions lack decentralization and transparency.
-
-## Solution
-ToolMesh provides a decentralized registry where tool providers can publish verified tool configurations, and AI agents can discover and integrate them with confidence.
+As AI agents become more prevalent, they need a reliable way to discover and verify the tools they use. ToolMesh addresses this by providing a decentralized registry.
 
 ## Tech Stack
 Built with TypeScript and deployed on Vercel.
@@ -128,89 +124,89 @@ Built with TypeScript and deployed on Vercel.
     },
     {
         slug: "the-wild-oasis",
-        title: "The Wild Oasis",
+        title: "The Wild Oasis (Admin)",
         description:
-            "Resort management dashboard with cabin bookings, guest check-ins, analytics, dark mode, and auth.",
+            "A comprehensive hotel management system designed for internal operations. Enables staff to manage cabin inventories, guest bookings, and real-time dashboard analytics.",
         tags: ["React", "Supabase", "Styled Components"],
         repoUrl: "https://github.com/PranavShukla7/The-Wild-Oasis",
         content: `
 ## Overview
-The Wild Oasis is a comprehensive resort management application designed for hotel staff to efficiently manage day-to-day operations.
+The Wild Oasis is a full-featured hotel management system that allows hotel employees to manage cabins, bookings, and guests with a powerful administrative interface.
 
-## Features
-- Cabin booking and management
-- Guest check-in and check-out workflows
-- Dashboard with analytics and key metrics
-- Dark mode support
-- User authentication and settings management
+## Key Features
+- **Operational Dashboard**: Real-time overview of bookings, sales, and occupancy rates via interactive charts.
+- **Inventory Management**: Complete CRUD functionality for hotel cabins and guest data.
+- **Check-in/Check-out Workflows**: Streamlined guest arrival and departure processing.
+- **Data Synchronization**: Real-time updates powered by Supabase.
 
 ## Tech Stack
-Built with React, Supabase for the backend, and styled-components for the UI.
+Built with React, Supabase, and styled-components.
     `,
     },
     {
         slug: "usepopcorn",
         title: "usePopcorn",
         description:
-            "Movie search and rating app with OMDb API integration, personal watchlist, and stats tracking.",
+            "A React-powered movie search and discovery application integrated with the OMDb API. Features a personalized watchlist, star ratings, and persistent data storage.",
         tags: ["React", "OMDb API", "Custom Hooks"],
+        demoUrl: "https://use-popcorn-eight-plum.vercel.app",
         repoUrl: "https://github.com/PranavShukla7/usePopcorn",
         content: `
 ## Overview
-usePopcorn is a movie discovery and rating application that allows users to search for movies, view details, and maintain a personal watchlist with ratings.
+usePopcorn is a movie discovery and rating application that allows users to search for movies, view detailed information, and maintain a personal watchlist.
 
-## Features
-- Movie search powered by OMDb API
-- Detailed movie information display
-- Personal rating and watchlist management
-- Watched movie statistics
+## Key Features
+- **Global Search**: Search for movies by title using the OMDB API.
+- **Rating System**: Custom star rating component for personal evaluations.
+- **Persistence**: Managed watchlist with local storage persistence.
+- **UX Hooks**: Custom React hooks for keyboard shortcuts and responsive states.
 
 ## Tech Stack
-React with custom hooks, OMDb API integration.
+React with custom hooks, OMDb API, and CSS Modules.
     `,
     },
     {
         slug: "blog-website",
-        title: "Blog Website",
+        title: "Django Blog Platform",
         description:
-            "Full-featured blog platform with CRUD operations built on Django and Python.",
+            "A robust, full-featured blogging platform built with Django. Supports complete CRUD operations for articles, administrative content control, and a responsive experience.",
         tags: ["Python", "Django", "SQLite"],
         repoUrl: "https://github.com/PranavShukla7/blog-website",
         content: `
 ## Overview
-A full-featured blog platform built with Django, featuring article creation, editing, and a clean reading experience.
+A full-featured blog platform built with Django, featuring article creation, editing, and a clean professional reading experience.
 
-## Features
-- Create, read, update, and delete blog posts
-- Clean and responsive design
-- Django admin integration
-- User-friendly content management
+## Key Features
+- **Content Management**: Robust CRUD operations for blog posts and categories.
+- **Admin Interface**: User-friendly backend for content moderation and management.
+- **Responsive Reading**: Optimized typography and layout for readability across devices.
 
 ## Tech Stack
-Python, Django, HTML/CSS, SQLite.
+Python, Django, and SQLite.
     `,
     },
     {
         slug: "eat-n-split",
         title: "Eat-N-Split",
         description:
-            "Expense splitting utility for tracking shared costs between friends, built with React.",
+            "A practical expense-sharing utility built with React for tracking shared costs among friends. Simplifies bill splitting and balance management with an intuitive interface.",
         tags: ["React", "JavaScript", "CSS"],
         repoUrl: "https://github.com/PranavShukla7/eat-n-split",
         content: `
-## Overview  
-Eat-N-Split is a handy utility app for splitting expenses with friends after dining out or shared activities.
+## Overview
+Eat-N-Split is a handy utility for tracking shared expenses between friends, perfect for dining out or shared living costs.
 
-## Features
-- Add friends to your list
-- Track who owes whom
-- Simple and intuitive bill splitting interface
+## Key Features
+- **Dynamic Balancing**: Real-time calculation of who owes whom.
+- **Friend Management**: Quick entry for shared participants with personalized markers.
+- **Simple UI**: Minimalist interface focused on high-speed expense entry.
 
 ## Tech Stack
-React, JavaScript, CSS.
+Developed with React and vanilla CSS.
     `,
     },
 ];
+
 
 
 // ===== OSS Contributions =====
