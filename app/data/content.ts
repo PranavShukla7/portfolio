@@ -48,6 +48,7 @@ export const projects: Project[] = [
         description:
             "A sophisticated full-stack cabin reservation platform for a luxury resort. Features a seamless guest experience with cabin browsing, real-time availability checks, and secure booking management via Google OAuth and Supabase.",
         tags: ["Next.js", "Supabase", "Tailwind CSS"],
+        demoUrl: "https://the-wild-oasis-website-sandy.vercel.app",
         repoUrl: "https://github.com/PranavShukla7/the-wild-oasis-website",
         content: `
 ## Overview
@@ -128,6 +129,7 @@ Built with TypeScript and deployed on Vercel.
         description:
             "A comprehensive hotel management system designed for internal operations. Enables staff to manage cabin inventories, guest bookings, and real-time dashboard analytics.",
         tags: ["React", "Supabase", "Styled Components"],
+        demoUrl: "https://the-wild-oasis-eosin-nine.vercel.app",
         repoUrl: "https://github.com/PranavShukla7/The-Wild-Oasis",
         content: `
 ## Overview
